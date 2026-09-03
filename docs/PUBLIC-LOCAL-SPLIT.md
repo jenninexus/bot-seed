@@ -7,13 +7,15 @@ desk URLs stay gitignored.
 
 | Surface | Path |
 |---------|------|
-| Pitch | `README.md` · `docs/PRODUCT.md` |
+| Pitch | `README.md` · `docs/PRODUCT.md` · `docs/GETTING-STARTED.md` |
 | Agent map | `AGENTS.md` |
+| Workspace | `bot-seed.code-workspace` (optional sibling folders) |
 | Embed rules | `docs/STYLE-SPEC.md` |
 | Example tokens | `profiles/discord-bot.example.json` |
 | Example content | `content/greeting.md.example` |
 | Example registries | `resources/*.example.json` |
 | Env **names** | `.env.example` |
+| Runtime | `src/` (greeter, wave, slash, optional loft) |
 
 ## Keep local
 
@@ -27,9 +29,9 @@ desk URLs stay gitignored.
 ## Product surfaces
 
 ```
-PUBLIC  — starter (examples + later sanitized src/)
+PUBLIC  — starter (examples + sanitized src/)
 PRIVATE — your token, your server IDs, your HTTPS art
 PAID    — not planned (tip only)
 ```
 
-jenni-bot / martian-bot are **not** overlays of this repo. They are separate private apps.
+Live production bots are **not** overlays of this repo. They are separate private apps.

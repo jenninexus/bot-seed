@@ -1,17 +1,32 @@
 {
-  "_comment": "Copy to assets.json and replace placeholders. No real Discord snowflakes.",
+  "_comment": "Copy to assets.json and replace placeholders. Unicode emoji only — no APP snowflakes.",
   "brand": {
     "name": "Your Community",
     "url": "https://example.com",
     "embedBar": "#5865F2",
     "embedBarInt": 5793266
   },
+  "site": "https://example.com",
+  "colors": {
+    "embedBar": "#5865F2"
+  },
   "socials": {
-    "website": "https://example.com",
-    "discordInvite": "https://discord.gg/example"
+    "website": {
+      "label": "Website",
+      "emoji": "🌐",
+      "url": "https://example.com",
+      "handle": "example.com"
+    },
+    "discord": {
+      "label": "Discord",
+      "emoji": "💬",
+      "url": "https://discord.gg/example",
+      "handle": "Your Community"
+    }
   },
   "emojis": {},
   "logos": {
+    "icon1x1": "https://example.com/logo-1x1.png",
     "authorIcon": "https://example.com/logo-1x1.png"
   }
 }

@@ -1,0 +1,30 @@
+{
+  "name": "bot-seed",
+  "version": "0.1.0",
+  "description": "Clone-safe Discord community bot starter — greeter, wave, /help /about /socials, optional loft faces.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "bot": "tsx src/index.ts",
+    "register": "tsx src/index.ts --register",
+    "dev": "tsx watch src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "recompile": "node scripts/recompile-registry.mjs",
+    "leakcheck": "node scripts/leak-scan.mjs"
+  },
+  "dependencies": {
+    "discord.js": "^14.26.4",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "greeter"
+  ],
+  "license": "MIT"
+}

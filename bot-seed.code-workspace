@@ -1,0 +1,61 @@
+{
+	"folders": [
+		{
+			"name": "bot-seed",
+			"path": "."
+		},
+		{
+			"name": "agency (optional lore)",
+			"path": "../agency"
+		},
+		{
+			"name": "voice-seed (optional registers)",
+			"path": "../voice-seed"
+		},
+		{
+			"name": "theme-designer (optional hex)",
+			"path": "../theme-designer"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/node_modules/**": true
+		},
+		"search.exclude": {
+			"**/node_modules/**": true
+		},
+		"workbench.colorCustomizations": {
+			"activityBar.background": "#313338",
+			"activityBar.foreground": "#F2F3F5",
+			"activityBar.inactiveForeground": "#949BA4",
+			"activityBarBadge.background": "#5865F2",
+			"activityBarBadge.foreground": "#F2F3F5",
+			"titleBar.activeBackground": "#5865F2",
+			"titleBar.activeForeground": "#F2F3F5",
+			"titleBar.inactiveBackground": "#313338",
+			"titleBar.inactiveForeground": "#949BA4",
+			"statusBar.background": "#1E1F22",
+			"statusBar.foreground": "#F2F3F5",
+			"statusBar.noFolderBackground": "#1E1F22",
+			"sideBar.background": "#2B2D31",
+			"sideBar.foreground": "#F2F3F5",
+			"sideBarSectionHeader.background": "#1E1F22",
+			"sideBarSectionHeader.foreground": "#5865F2",
+			"panel.background": "#1E1F22",
+			"panel.border": "#5865F2",
+			"panelTitle.activeForeground": "#F2F3F5",
+			"panelTitle.activeBorder": "#5865F2",
+			"editorGroupHeader.tabsBackground": "#1E1F22",
+			"tab.activeBackground": "#313338",
+			"tab.activeForeground": "#F2F3F5",
+			"tab.inactiveBackground": "#1E1F22",
+			"tab.inactiveForeground": "#949BA4",
+			"tab.activeBorderTop": "#5865F2"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint"
+		]
+	}
+}
