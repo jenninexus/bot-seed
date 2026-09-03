@@ -41,7 +41,7 @@ Do not dump résumé voice or Patreon “Hey friends” into the greeter.
 4. Image bytes live on **the user’s site HTTPS**, not `/opt/bot-seed/`.
 5. Network admin tooling is not a clone requirement.
 6. Default embed bar is Discord blurple. Example desks are Ink and Hue only.
-7. README tip footer stays Patreon + PayPal + `github.com/jenninexus` — never `jenninexus.com` (leakcheck).
+7. README tip footer stays Patreon + PayPal + `github.com/jenninexus` — never the live studio website host (leakcheck).
 
 ## Related hub
 
