@@ -1,0 +1,22 @@
+<!--
+ New-member greeter (template).
+ Copy to: content/greeting.md  (gitignored once filled)
+
+ Placeholders:
+   {user}     → mention
+   {username} → plain name
+   {count}    → member count
+   {server}   → guild name
+   {avatar}   → joiner avatar URL (optional)
+
+ Keep it short. HTML comments are stripped.
+ Optional KEY: lines (COLOR, TITLE, THUMBNAIL, BANNER, FOOTER, FOOTER_ICON,
+ AUTHOR, AUTHOR_URL, AUTHOR_ICON) become embed chrome when the runtime lands.
+-->
+
+COLOR: #5865F2
+TITLE: Welcome, {username}!
+FOOTER: {server} · member #{count}
+
+👋 Welcome to **{server}**, {user}! You're member **#{count}**.
+Say hi in chat when you're ready.

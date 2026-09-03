@@ -1,0 +1,17 @@
+{
+  "_comment": "Copy to assets.json and replace placeholders. No real Discord snowflakes.",
+  "brand": {
+    "name": "Your Community",
+    "url": "https://example.com",
+    "embedBar": "#5865F2",
+    "embedBarInt": 5793266
+  },
+  "socials": {
+    "website": "https://example.com",
+    "discordInvite": "https://discord.gg/example"
+  },
+  "emojis": {},
+  "logos": {
+    "authorIcon": "https://example.com/logo-1x1.png"
+  }
+}

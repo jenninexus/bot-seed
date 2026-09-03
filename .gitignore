@@ -1,0 +1,8 @@
+.env
+node_modules/
+content/greeting.md
+resources/assets.json
+resources/agency-profiles.json
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,29 @@
+{
+  "_meta": {
+    "description": "Clone-safe Discord embed defaults. Copy embedBar into resources/assets.json. Not a dashboard profile.",
+    "kind": "discord_bot",
+    "profile": "discord-bot-example",
+    "copy_dont_import": true
+  },
+  "default": {
+    "embedBar": "#5865F2",
+    "embedBarInt": 5793266,
+    "embedBarName": "Discord blurple (neutral seed)",
+    "surfaceHint": "#1e1f22",
+    "textOnDark": "#f2f3f5",
+    "footerStyle": "short brand · context",
+    "logoRole": "1x1 mark in author or footer"
+  },
+  "embedAnatomy": {
+    "thumbnail": "1x1 character or brand mark (top-right)",
+    "image": "16x9 landscape hero when present",
+    "color": "single flat bar — Discord has no CSS gradients on the bar",
+    "emojiPolicy": "one custom emoji in the title when used",
+    "links": "markdown links inside embed description/fields only",
+    "noBrown": "Never brown/mustard/warm-tan chrome"
+  },
+  "themeDesigner": {
+    "copyFrom": "tokens/brand-tokens.css --brand-accent",
+    "docs": "https://github.com/jenninexus/theme-designer (docs/DISCORD-EMBED.md)"
+  }
+}
