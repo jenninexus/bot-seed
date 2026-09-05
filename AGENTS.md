@@ -47,6 +47,7 @@ Do not dump résumé voice or Patreon “Hey friends” into the greeter.
 
 Packaging, store board, and GitHub-visibility sequence are **not** this repo.
 On studio machines they live in the local **product-design** hub (`/products` ·
-`product-design/docs/SEED-FAMILY.md` · `product-design/docs/BOT-SEED.md`). Do not copy that sequence plan here.
+`docs/PRODUCTS.md` · `docs/SEED-FAMILY.md` · `docs/BOT-SEED.md`). Live store until a
+mini-devlog: the maker’s `/products#seed-family` band. Do not copy that sequence plan here.
 `jenninexus/bot-seed` is the public seed. Re-run `npm run leakcheck` before every push.
 Do not copy live brand apps into this tree.

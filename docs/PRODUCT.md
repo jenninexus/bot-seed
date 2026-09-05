@@ -15,6 +15,13 @@ A stranger can:
 
 They never need our droplets, private theme kits, or sys-admin.
 
+## Store placement
+
+Until a **mini-devlog** exists on the maker’s site, Bot Seed is featured only on
+that site’s `/products` **seed-family** band (clone button). A catalog widget ships
+**after** that short blog, with Details + clone + tip (`cardWalkthrough: false`).
+Tags then: `products` · `ai` · `tools` · `free-download`.
+
 ## Tip footer
 
 ```md

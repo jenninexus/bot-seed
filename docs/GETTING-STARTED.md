@@ -85,3 +85,9 @@ npm run leakcheck
 
 `leakcheck` must stay green before you push a fork that still uses this seed's
 example files.
+
+## Store (maker’s site)
+
+Clone is enough. The maker’s `/products` **seed-family** band lists this seed until a
+short blog exists; that blog is the gate for a featured store card.
+See [`PRODUCT.md`](PRODUCT.md).
