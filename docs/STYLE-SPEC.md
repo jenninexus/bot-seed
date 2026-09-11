@@ -23,5 +23,9 @@ Author colors in [theme-designer](https://github.com/jenninexus/theme-designer),
 3. One custom emoji in the title at most.
 4. Never brown / mustard chrome.
 5. Deploy image URLs and confirm HTTP 200 **before** send — Discord caches 404s.
+6. Posting avatars and top-right thumbnails must be square. Keep wide platform wordmarks in an
+   author/footer icon or the embed body; Discord crops rectangular avatars into unreadable circles.
+7. Use one deliberate 16×9 hero per embed. Multiple full-width embed images can gallery-stack and
+   make a compact notification look like several widgets.
 
 Machine example: [`../profiles/discord-bot.example.json`](../profiles/discord-bot.example.json).
