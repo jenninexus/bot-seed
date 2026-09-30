@@ -16,7 +16,12 @@ export type DeskProfile = {
   role: string;
   accent?: string;
   accentInt?: number;
+  /** 1×1 character square (full scene) — fallback avatar. */
   avatarUrl: string;
+  /** Optional tight head-and-shoulders 1×1 crop — preferred webhook avatar (reads at 40px). */
+  faceUrl?: string;
+  /** Optional per-desk deep link, e.g. https://example.com/agency#ink */
+  siteUrl?: string;
   bannerUrl?: string;
   domainKeywords?: string[];
   chatVoice?: {
@@ -172,7 +177,7 @@ async function postAsDesk(agent: DeskProfile, payload: LoftWebhookPayload): Prom
   if (!url) return false;
   const body: Record<string, unknown> = {
     username: agent.webhookUsername || agent.displayName,
-    avatar_url: agent.avatarUrl,
+    avatar_url: agent.faceUrl ?? agent.avatarUrl,
     allowed_mentions: { parse: [] },
   };
   if (payload.content) body.content = payload.content;
