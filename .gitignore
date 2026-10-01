@@ -9,3 +9,7 @@ dev-chat.md
 *.log
 .DS_Store
 Thumbs.db
+
+# Generated runtime skill wrappers (rebuilt per machine by sync-command-skills.ps1)
+.agents/
+.codex/
